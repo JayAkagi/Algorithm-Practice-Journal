@@ -56,11 +56,10 @@ public class App {
     }
 
     public static boolean sortChecker(int[] a){
-        boolean sorted = true;
         for(int i = 0; i < a.length - 1; i++){
-            if(a[i] > a[i + 1]) sorted = false;
+            if(a[i] > a[i + 1]) return false;
         }
-        return sorted;
+        return true;
     }
 
     public static int[] sortArray(int[] a){
@@ -80,7 +79,7 @@ public class App {
 
     public static int[] reverseArray(int[] a){
         int temp = 0;
-        for (int i = 0; i < a.length - i; i++) {
+        for (int i = 0; i < a.length / 2; i++) {
             temp = a[i];
             a[i] = a[a.length - i - 1];
             a[a.length - i - 1] = temp;
