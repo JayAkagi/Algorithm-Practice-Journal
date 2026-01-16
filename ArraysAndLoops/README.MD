@@ -7,8 +7,7 @@
 Write **clean Java methods** for each problem.
 
 - Return the largest element in an array  
-- Return the smallest element in an array  
-- Reverse an array in place  
+- Return the smallest element in an array   
 - Check if an array is sorted (ascending)  
 - Count how many times a given number appears
 
