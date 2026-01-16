@@ -73,7 +73,7 @@ Progress matters more than perfection.
 - Solutions may change over time  
 - Code quality will evolve as understanding improves  
 
-This repository documents the learning process, not the end result.
+This repository documents my learning process, not the end result.
 
 ---
 
