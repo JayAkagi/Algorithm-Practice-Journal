@@ -18,11 +18,13 @@ public class App {
         String countb = numCount(b);
         Integer secondMax = secondLargerst(a);
         Integer secondMaxC = secondLargerst(c);
+        Integer leastNum = smallestNum(a);
         int[] sortedArray = sortArray(a);
         
 
         System.out.printf("max num : %d\n", maxNum);
         System.out.printf("second max num: %d\n", secondMax);
+        System.out.printf("least number: %d\n", leastNum);
         System.out.printf("second max num in C: %d\n", secondMaxC);
         System.out.printf("\nArray A is Sorted: %b", sortedA);
         System.out.printf("\nArray B is Sorted: %b", sortedB);
@@ -53,6 +55,29 @@ public class App {
         }
 
         return maxNum;
+    }
+
+        public static Integer secondLargerst(int[] a){
+        Integer max = maxNum(a);
+        Integer secondLargest = null;
+        for(Integer n : a){
+            if( secondLargest == null || n > secondLargest && n < max) secondLargest = n;
+        }
+
+        if(secondLargest == Integer.MIN_VALUE) secondLargest = max;
+
+        return secondLargest;
+    }
+
+    public static Integer smallestNum(int[] a){
+        Integer least = null;
+        for(Integer n : a){
+            if(least == null || n < least){
+                least = n;
+            }
+        }
+
+        return least;
     }
 
     public static boolean sortChecker(int[] a){
@@ -103,15 +128,5 @@ public class App {
         return output;
     }
 
-    public static Integer secondLargerst(int[] a){
-        Integer max = maxNum(a);
-        Integer secondLargest = Integer.MIN_VALUE;
-        for(Integer n : a){
-            if(n > secondLargest && n < max) secondLargest = n;
-        }
 
-        if(secondLargest == Integer.MIN_VALUE) secondLargest = max;
-
-        return secondLargest;
-    }
 }
