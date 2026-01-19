@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
 
 public class App {
@@ -14,74 +15,70 @@ public class App {
     }
 
     public static String reverseString(String s){
-        char[] characters = s.toCharArray();
-        String reversed = "";
+        if(s == null) return null;
 
-        char temp = 'x';
+        char[] characters = s.toCharArray();
+
         for(int i = 0; i < characters.length / 2; i++){
-            temp = characters[i];
+            char temp = characters[i];
             characters[i] = characters[characters.length - i - 1];
             characters[characters.length - i - 1] = temp;
         }
 
-        for(char n : characters){
-            reversed += n;
-        }
 
-        return reversed;        
+        return new String(characters);        
     }
 
     public static boolean isPalindrome(String s){
-        if(reverseString(s).toLowerCase().equals(s.toLowerCase())){
-            return true;
+        if(s == null ) return false;
+
+        int left = 0;
+        int right = s.length() - 1;
+
+        while(left < right){
+            if (Character.toLowerCase(s.charAt(left)) != Character.toLowerCase(s.charAt(right))){
+                return false;
+            }
+
+            left ++;
+            right --;
         }
 
-        return false;
+        return true;
     }
 
     public static String countVowels(String s){
-        char[] vowels = {'a','e','i','o','u'};
-        char[] characters = s.toCharArray(); 
+        if (s == null) return null;
+        char[] characters = s.toLowerCase().toCharArray(); 
 
         Map<Character, Integer> vowelCount = new HashMap<>();
         for (int i = 0; i < characters.length; i++) {
             char c = characters[i];
-            for (int j = 0; j < vowels.length; j++) {
-                if(c == vowels[j])
-                    vowelCount.put(c, vowelCount.getOrDefault(c, 0) + 1);
+            if( c == 'a' || c == 'e' || c == 'i' || c == 'o' || c =='u'){
+                vowelCount.put(c, vowelCount.getOrDefault(c, 0) + 1);
             }
         }
 
-        String msg = "";
+        StringBuilder stringBuilder = new StringBuilder();
         for(Map.Entry<Character, Integer> entry : vowelCount.entrySet()){
-            char ch = entry.getKey();
-            int value = entry.getValue();
-            msg += String.format("%s count: %d\n", ch, value);
+            stringBuilder.append(entry.getKey())
+            .append(" count: ")
+            .append(entry.getValue())
+            .append("\n");
         }
 
-        return msg;
+        return stringBuilder.toString();
     }
 
     public static Character firstRepeatingCharacter(String s){
-        char[] characters = s.toCharArray();
-        Character character = null;
-        Integer indexPair = null;
-        boolean foundPair = false;
+        if(s == null) return null;
 
-        for (int i = 0; i < characters.length; i++) {
-            Character toFind = characters[i];
-            for (int j = i + 1; j < characters.length; j++) {
-                if (toFind == characters[j]){
-                    if(indexPair == null || j < indexPair){
-                        indexPair = j;
-                        character = toFind;
-                    }
-                    foundPair = true;
-                }
-            }
+        HashSet<Character> seen = new HashSet<>();
+        for(char c : s.toCharArray()){
+            if(seen.contains(c)) return c;
+            seen.add(c);
         }
 
-        if(!foundPair) character = '-';
-        return character;
+        return null;
     }
 }
