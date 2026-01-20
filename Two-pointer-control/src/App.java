@@ -7,15 +7,7 @@ import java.util.Random;
 public class App {
     private static Random random = new Random();
     public static void main(String[] args) throws Exception {
-        List<Integer> myArrayListOne = arrayBuilder();
-        int[] myArray = {0,1,0,3,12};
-        // int[] zerosToTheEnd = moveAllZerosToTheEnd(myArray) ;
-
-        System.out.println(myArrayListOne);
-        System.out.println(reverseArray(myArrayListOne));
-
-        System.out.println(Arrays.toString(myArray));
-        // System.out.println(Arrays.toString(zerosToTheEnd));
+        reverseArray();
     }
 
     public static List<Integer> arrayBuilder(){
@@ -29,14 +21,17 @@ public class App {
         return myArrayList;
     }
 
-    public static List<Integer> reverseArray(List<Integer> myArrayList){
+    public static void reverseArray(){
+        List<Integer> myArrayList = arrayBuilder();
+        System.out.println("unsorted: " + myArrayList);
         for (int i = 0; i < myArrayList.size() / 2; i++) {
             int temp = myArrayList.get(i);
             myArrayList.set(i, myArrayList.get(myArrayList.size() - i - 1));
             myArrayList.set(myArrayList.size() - i - 1, temp);
         }
 
-        return myArrayList;
+        System.out.println("reversed: " + myArrayList);
+        return;
     }
 
     // public static int[] moveAllZerosToTheEnd(int[] myArray){
