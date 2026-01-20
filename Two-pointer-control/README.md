@@ -73,6 +73,44 @@ Sometimes the cleanest solution is the most direct one.
 
 ---
 
+### Remove Duplicates from Sorted Array 🧩
+
+I remove duplicates **in place** by separating read and write responsibilities.
+
+Array is already sorted.  
+I move through the array once:
+- One pointer reads new values
+- One pointer writes only when a new unique value is found
+
+I return the count of unique elements and leave the remaining values on the right side untouched.
+
+Those extra values do not matter.
+
+This exercise trains:
+- Pointer coordination
+- In-place modification
+- Trusting constraints instead of fighting them
+
+---
+
+### Remove Duplicates (Experimental) 🧪
+
+This version uses a set to track uniqueness.
+
+I am intentionally breaking from the in-place rule here.
+
+The goal is not to improve the main solution.  
+The goal is to compare thinking styles.
+
+This helps me see:
+- How extra memory simplifies logic
+- Why constraints exist
+- When clarity is gained and when control is lost
+
+This is exploratory code, not a replacement.
+
+---
+
 ## Rules I’m Following 📌
 
 - I write working code first
