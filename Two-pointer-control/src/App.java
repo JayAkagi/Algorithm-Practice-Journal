@@ -8,6 +8,7 @@ public class App {
     private static Random random = new Random();
     public static void main(String[] args) throws Exception {
         reverseArray();
+        moveAllZerosToTheEnd();
     }
 
     public static List<Integer> arrayBuilder(){
@@ -34,17 +35,29 @@ public class App {
         return;
     }
 
-    // public static int[] moveAllZerosToTheEnd(int[] myArray){
-    //     for (int i = 0; i < myArray.length; i++) {
-    //         if(myArray[i] == 0){
-    //             for (int j = 0; j < myArray.length - i - 1; j++) {
-    //                 int zeroHolder = myArray[i];
-    //                 myArray[i] = myArray[i + 1];
-    //                 myArray[i + 1] = zeroHolder;
-    //             }                
-    //         }
-    //     }
+    // logically correct but flawed. (Will improve later 🎯)
+    public static void moveAllZerosToTheEnd(){
+        int[] myArray = {0,1,0,3,12,7,8,0,2,0};
+        System.out.println("unsorted: " + Arrays.toString(myArray));
 
-    //     return myArray;
-    // }
+        int write = 0;
+        for (int read = 0; read < myArray.length; read++) {
+            if(myArray[read] != 0){
+                myArray[write] = myArray[read];
+                write++;
+            }
+        }
+
+        System.out.println(write);
+
+        int replace = myArray.length - 1;
+        for (int i = 0; i < (myArray.length - write); i++) {
+            myArray[replace] = 0;
+            replace--;
+        }
+
+
+        System.out.println(Arrays.toString(myArray));
+        return;
+    }
 }
