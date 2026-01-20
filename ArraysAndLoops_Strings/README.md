@@ -1,6 +1,6 @@
-## Tier 2 — Pattern Recognition (Strings & Controlled Traversal)
+## Tier 2 — Pattern Recognition (Strings & Controlled Traversal) 🧠
 
-### Focus 
+### Focus
 I’m training:
 - Pointer control
 - Character-level reasoning
@@ -23,7 +23,7 @@ I work directly with:
 
 ## Implemented Exercises
 
-### Reverse String
+### Reverse String 🔄
 
 I reverse a string by converting it into a character array and swapping from the outside inward.
 
@@ -36,7 +36,7 @@ The logic mirrors array reversal and reinforces the same mental model.
 
 ---
 
-### Palindrome Check
+### Palindrome Check 🪞
 
 I check whether a string is a palindrome by walking inward from both ends.
 
@@ -51,7 +51,7 @@ This trains:
 
 ---
 
-### First Repeating Character
+### First Repeating Character 🔁
 
 I track characters I’ve already seen using a set.
 
@@ -61,7 +61,7 @@ As I move through the string:
 
 ---
 
-### Count Vowels
+### Count Vowels 🧮
 
 I count vowels by scanning the string once and recording occurrences in a map.
 
@@ -71,7 +71,7 @@ I separate the problem into two steps:
 
 ---
 
-## Rules I’m Following
+## Rules I’m Following 📌
 
 - I write solutions that are easy to reason about
 - I don’t hide logic inside library calls

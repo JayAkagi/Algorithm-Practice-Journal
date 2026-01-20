@@ -1,4 +1,4 @@
-## Tier 2 — Pattern Recognition (Early Stage)
+## Tier 2 — Pattern Recognition (Early Stage) 🧠
 
 ### Focus
 At this stage, I’m not chasing optimal solutions.
@@ -21,12 +21,13 @@ The problems here are solved:
 - Without shortcuts
 
 Some solutions are still verbose or imperfect.  
+That’s intentional.
 
 ---
 
 ## Implemented Exercises
 
-### Reverse Array
+### Reverse Array 🔄
 
 I reverse an array in place by swapping elements from the outside toward the center.
 
@@ -40,7 +41,7 @@ It’s controlled movement through the array.
 
 ---
 
-### Move All Zeros to the End
+### Move All Zeros to the End 🧱
 
 This solution works logically but is overstructured on purpose.
 
@@ -50,14 +51,14 @@ I separate the problem into two clear phases:
 
 I use distinct roles for reading and writing to avoid overwriting useful data.
 
-I am aware this can be simplified.  
+I’m aware this can be simplified.  
 I’m choosing correctness and clarity before refinement.
 
 This problem is marked for revisiting once my pointer control is sharper.
 
 ---
 
-### Check If Array Is Sorted
+### Check If Array Is Sorted ✅
 
 I verify whether an array is sorted by comparing each element with the next one.
 
@@ -72,7 +73,7 @@ Sometimes the cleanest solution is the most direct one.
 
 ---
 
-## Rules I’m Following
+## Rules I’m Following 📌
 
 - I write working code first
 - I don’t hide behind abstractions
