@@ -1,93 +1,199 @@
 # 🧠 Algorithm Practice (Java)
 
 ## Overview
-This repository is a **personal algorithm and problem-solving practice log** written in Java.
+This repository is a **personal algorithm and problem-solving journal** written in Java.
 
-The focus is intentionally on **thinking in code first**, not optimisation.
+The priority is **thinking in code before optimisation**.
 
-Before worrying about performance, the goal is to build the ability to:
-- Break problems down logically  
-- Translate ideas into working Java code  
-- Develop strong problem-solving instincts  
+The focus is on:
+- Breaking problems down logically
+- Translating intent into correct Java code
+- Building calm, repeatable problem-solving habits
 
-Once that foundation is solid, solutions will be revisited and improved.
-
----
-
-## 🎯 Goals
-
-- Train algorithmic thinking  
-- Improve logic and reasoning through repetition  
-- Become fluent at expressing solutions in Java  
-- Build confidence before focusing on optimisation  
-
-Big-O analysis and performance tuning come **after** correctness and clarity.
+Performance, Big-O analysis, and optimisation are layered in **after correctness**.
 
 ---
 
-## 📌 What This Repo Is (and Isn’t)
+## 🎯 Training Goals
 
-### ✅ This repo **is**
-- A learning playground  
-- A record of progress over time  
-- A place to write imperfect but honest solutions  
+- Build strong algorithmic thinking through repetition
+- Develop clean, readable Java solutions
+- Gain confidence solving problems without shortcuts
+- Learn patterns before optimising them
 
-### ❌ This repo is **not**
-- A collection of optimal solutions  
-- Production-ready code  
-- A showcase of polished implementations  
-
-Early solutions may be brute-force, verbose, or inefficient by design.
+Correctness and clarity come first. Speed comes later.
 
 ---
 
-## 🗂️ Topics Covered
+## 📌 Scope & Intent
 
-Problems may include (but are not limited to):
-- Arrays & Strings  
-- Loops and conditionals  
-- Basic recursion  
-- Hashing  
-- Introductory data structures  
+### What this repository **is**
+- A learning workspace
+- A record of growth over time
+- A place for imperfect, exploratory solutions
 
-More advanced topics will be added as complexity increases.
+### What this repository **is not**
+- A showcase of optimal solutions
+- Production-ready code
+- A memorisation exercise
+
+Early solutions may be verbose or inefficient by design.
+
+---
+
+## 🗺️ DSA Roadmap & Progress
+
+This roadmap outlines the **intended progression** of topics.
+Each tier may be revisited and refactored as understanding improves.
+
+### Status Legend
+- **Completed** – Problems implemented and understood
+- **In Progress** – Actively practicing / partial coverage
+- **Planned** – Not started yet
+- **Refactor Pending** – Correct but due for cleanup or optimisation
+
+---
+
+### Tier 1 — Fundamentals
+**Status:** ✅ Completed | 🔧 Refactor Pending  
+**Focus:** Control and correctness
+
+- Array traversal
+- Loop discipline
+- Index safety
+
+**Exercises**
+- Find min / max in an array  
+- Check if an array is sorted  
+- Reverse an array in place  
+- Count element frequencies  
+- Find the second largest element  
+
+---
+
+### Tier 2 — Two Pointers & In-Place Techniques
+**Status:** 🟡 In Progress | 🔧 Refactor Pending  
+**Focus:** Intentional movement through data
+
+- Read vs write pointers
+- In-place overwriting
+- Ignoring invalid tail data
+
+**Exercises**
+- Move all zeros to the end  
+- Remove duplicates from a sorted array  
+- Remove duplicates allowing at most two occurrences  
+- Merge two sorted arrays  
+- Two-sum on a sorted array  
+
+---
+
+### Tier 3 — Hashing & Counting
+**Status:** ⏳ Planned  
+**Focus:** Trading memory for simplicity
+
+- HashMap / HashSet usage
+- Frequency-based problem solving
+
+**Exercises**
+- Two Sum (unsorted)  
+- First repeating / non-repeating element  
+- Character frequency problems  
+- Group anagrams  
+
+---
+
+### Tier 4 — Recursion & Backtracking
+**Status:** ⏳ Planned  
+**Focus:** Trusting structure and base cases
+
+**Exercises**
+- Print 1 → N recursively  
+- Reverse array recursively  
+- Palindrome check (recursive)  
+- Generate subsets  
+- Generate permutations  
+
+---
+
+### Tier 5 — Linked Lists
+**Status:** ⏳ Planned  
+**Focus:** Pointer control
+
+**Exercises**
+- Reverse a linked list  
+- Detect a cycle  
+- Find middle element  
+- Merge two sorted linked lists  
+
+---
+
+### Tier 6 — Trees
+**Status:** ⏳ Planned  
+**Focus:** Structured recursion
+
+**Exercises**
+- Tree traversals (DFS / BFS)  
+- Height and depth  
+- Diameter of a tree  
+- Lowest common ancestor  
+- Validate binary search tree  
+
+---
+
+### Tier 7 — Graphs
+**Status:** ⏳ Planned  
+**Focus:** Non-linear traversal
+
+**Exercises**
+- BFS / DFS  
+- Connected components  
+- Cycle detection  
+- Topological sort  
+- Shortest path basics  
+
+---
+
+### Tier 8 — Dynamic Programming
+**Status:** ⏳ Planned  
+**Focus:** Problem decomposition
+
+**Exercises**
+- Fibonacci (memoization & tabulation)  
+- Knapsack variants  
+- Coin change  
+- Longest increasing subsequence  
+- Grid path problems  
 
 ---
 
 ## 🔁 Iteration Philosophy
 
-Some problems may be solved multiple times:
-1. First pass focuses on **getting it working**
-2. Later passes improve:
-   - Readability
+Problems may be solved multiple times:
+
+1. First pass: make it work
+2. Later passes: improve
    - Structure
-   - Time and space complexity
-
-Progress matters more than perfection.
-
----
-
-## ⚠️ Notes
-
-- Optimisation is **not** the initial priority  
-- Solutions may change over time  
-- Code quality will evolve as understanding improves  
-
-This repository documents my learning process, not the end result.
+   - Readability
+   - Time and space efficiency
 
 ---
 
-## 📈 Why This Exists
+## ⚠️ Working Principles
 
-The goal is simple:
+- Optimisation is not the initial goal
+- Solutions evolve over time
+- Earlier code will look worse than later code — that’s expected
 
-> **Think clearly ➡️ Code confidently ➡️ Optimise later ➡️ Grow as a Developer 👨🏽‍💻**
+This repository documents **learning**, not outcomes.
 
+---
 
 ## 📝 Self Notes
 
-
-### 👷🏽 Revisit and refactor these sections:
-- Two-pointer-control: Move All Zeros To the End
+### 🔧 Refactor Targets
+- Two-pointer technique: *Move All Zeros to the End*
 
 ---
+
+> **Think clearly → Code confidently → Optimise later**
