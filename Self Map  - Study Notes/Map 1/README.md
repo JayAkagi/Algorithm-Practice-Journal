@@ -83,7 +83,7 @@ For each exercise:
   - no duplicates
 - Say out loud what each pointer represents
 
-If you can explain it, you understand it.
+If you I explain it, I understand it.
 
 ---
 
@@ -103,17 +103,6 @@ This is about **understanding tradeoffs**, not replacing techniques.
 
 ---
 
-## 🧠 Reflection (5 minutes)
-
-In comments or notes, answer:
-- Which problem felt most natural?
-- Which one required the most discipline?
-- What mistake did I catch myself making?
-
-No long writing. Bullet points are enough.
-
----
-
 ## 🚫 Rules for Today
 
 - Do not jump to new topics
@@ -129,8 +118,8 @@ Boring correctness is the goal.
 
 Today is a success if:
 - Two-pointer problems feel clearer than yesterday
-- You can rewrite at least one solution from memory
-- You stayed calm while debugging
+- I can rewrite at least one solution from memory
+- I stayed calm while debugging
 
 Stop when tired.  
 Progress compounds.
