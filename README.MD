@@ -82,3 +82,11 @@ This repository documents my learning process, not the end result.
 The goal is simple:
 
 > **Think clearly ➡️ Code confidently ➡️ Optimise later ➡️ Grow as a Developer 👨🏽‍💻**
+
+
+## 📝 Self Notes
+
+---
+
+### 👷🏽 Revisit and refactor these sections:
+- Two-pointer-control: Move All Zeros To the End

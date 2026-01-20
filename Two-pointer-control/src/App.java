@@ -1,63 +1,69 @@
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.Random;
 
 public class App {
     private static Random random = new Random();
     public static void main(String[] args) throws Exception {
-        reverseArray();
-        moveAllZerosToTheEnd();
+        reverseArray(arrayBuilder());
+        moveAllZerosToTheEnd(arrayBuilder());
+        isArraySorted();
     }
 
-    public static List<Integer> arrayBuilder(){
-        
-        List<Integer> myArrayList = new ArrayList<>();
-        for(int i = 0; i < 6; i++){
-            int num = random.nextInt(1,100);
-            myArrayList.add(num);
+    public static int[] arrayBuilder(){
+        int[] myArray = new int[5];
+        for(int i = 0; i < myArray.length; i++){
+            int num = random.nextInt(0,6);
+            myArray[i] = num;
         }
 
-        return myArrayList;
+        return myArray;
     }
 
-    public static void reverseArray(){
-        List<Integer> myArrayList = arrayBuilder();
-        System.out.println("unsorted: " + myArrayList);
-        for (int i = 0; i < myArrayList.size() / 2; i++) {
-            int temp = myArrayList.get(i);
-            myArrayList.set(i, myArrayList.get(myArrayList.size() - i - 1));
-            myArrayList.set(myArrayList.size() - i - 1, temp);
+    public static void reverseArray(int[] a){
+        System.out.println("before reverse: " + Arrays.toString(a));
+        for (int i = 0; i < a.length / 2; i++) {
+            int temp = a[i];
+            a[i] = a[a.length - i - 1];
+            a[a.length - i - 1] = temp;
         }
 
-        System.out.println("reversed: " + myArrayList);
+        System.out.println("reversed: " + Arrays.toString(a));
         return;
     }
 
-    // logically correct but flawed. (Will improve later 🎯)
-    public static void moveAllZerosToTheEnd(){
-        int[] myArray = {0,1,0,3,12,7,8,0,2,0};
-        System.out.println("unsorted: " + Arrays.toString(myArray));
+    // logically correct but flawed/overcomplicated. (Will improve later 🎯)
+    public static void moveAllZerosToTheEnd(int[] a){
+        System.out.println("\nbefore moving zeros: " + Arrays.toString(a));
 
         int write = 0;
-        for (int read = 0; read < myArray.length; read++) {
-            if(myArray[read] != 0){
-                myArray[write] = myArray[read];
+        for (int read = 0; read < a.length; read++) {
+            if(a[read] != 0){
+                a[write] = a[read];
                 write++;
             }
         }
 
-        System.out.println(write);
-
-        int replace = myArray.length - 1;
-        for (int i = 0; i < (myArray.length - write); i++) {
-            myArray[replace] = 0;
+        int replace = a.length - 1;
+        for (int i = 0; i < (a.length - write); i++) {
+            a[replace] = 0;
             replace--;
         }
 
 
-        System.out.println(Arrays.toString(myArray));
+        System.out.println("after moving zeros: " +Arrays.toString(a));
         return;
+    }
+
+    public static void isArraySorted(){
+        int[] myArray = {1,2,3,4,5};
+        boolean sorted = true;
+
+        for (int i = 0; i < myArray.length - 1; i++) {
+            if(myArray[i] > myArray[i+1]){
+                sorted = false;
+                break;
+            } 
+        }
+        System.out.println(sorted);
     }
 }
