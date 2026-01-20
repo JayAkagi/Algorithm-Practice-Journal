@@ -1,4 +1,4 @@
-## Tier 2 — Pattern Recognition (Strings & Controlled Traversal) 🧠
+## Tier 2 : Pattern Recognition (Strings & Controlled Traversal) 🧠
 
 ### Focus
 I’m training:

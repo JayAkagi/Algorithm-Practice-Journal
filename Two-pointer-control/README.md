@@ -1,4 +1,4 @@
-## Tier 2 — Pattern Recognition (Early Stage) 🧠
+## Tier 2: Pattern Recognition (Early Stage) 🧠
 
 ### Focus
 At this stage, I’m not chasing optimal solutions.
