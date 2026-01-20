@@ -1,18 +1,80 @@
-## Getting Started
+## Tier 2 — Pattern Recognition (Early Stage)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Focus
+At this stage, I’m not chasing optimal solutions.
 
-## Folder Structure
+I’m training myself to:
+- Stay calm and patient when facing a problem
+- Break it down into small, controllable steps
+- Translate intent directly into Java code
+- Build solutions that work before worrying about elegance
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## What This Code Represents
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+This file is a hands-on practice ground for array manipulation and early pattern recognition.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+The problems here are solved:
+- Explicitly
+- Step by step
+- Without shortcuts
 
-## Dependency Management
+Some solutions are still verbose or imperfect.  
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+## Implemented Exercises
+
+### Reverse Array
+
+I reverse an array in place by swapping elements from the outside toward the center.
+
+This forces me to:
+- Respect index boundaries
+- Think in pairs
+- Understand when work is complete
+
+The goal isn’t cleverness.  
+It’s controlled movement through the array.
+
+---
+
+### Move All Zeros to the End
+
+This solution works logically but is overstructured on purpose.
+
+I separate the problem into two clear phases:
+1. Preserve non-zero values
+2. Fill the remaining space with zeros
+
+I use distinct roles for reading and writing to avoid overwriting useful data.
+
+I am aware this can be simplified.  
+I’m choosing correctness and clarity before refinement.
+
+This problem is marked for revisiting once my pointer control is sharper.
+
+---
+
+### Check If Array Is Sorted
+
+I verify whether an array is sorted by comparing each element with the next one.
+
+The moment the order breaks, I stop.
+
+This reinforces:
+- Early exits
+- Trusting simple logic
+- Avoiding unnecessary work
+
+Sometimes the cleanest solution is the most direct one.
+
+---
+
+## Rules I’m Following
+
+- I write working code first
+- I don’t hide behind abstractions
+- I allow early solutions to be rough
+- I revisit problems when my understanding improves
