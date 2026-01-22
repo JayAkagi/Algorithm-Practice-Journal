@@ -3,7 +3,7 @@
 ## Overview
 This repository is a **personal algorithm and problem-solving journal** written in Java.
 
-The priority is **thinking in code before optimisation**.
+The priority is **thinking and get comfortable in code then optimisation**.
 
 The focus is on:
 - Breaking problems down logically
