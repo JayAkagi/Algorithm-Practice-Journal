@@ -125,7 +125,7 @@ If this feels heavy, stop. It’s optional.
 
 ---
 
-## ✅ End Condition
+## ✅ End Condition ⬅️ 🟢📍🙋🏽‍♂️  Currently Here
 
 I'm done when:
 - HashMap problems feel “obvious”
