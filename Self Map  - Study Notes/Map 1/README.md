@@ -87,7 +87,7 @@ If you I explain it, I understand it.
 
 ---
 
-## 🧱 Secondary Practice (Optional if Time Allows)  ⬅️ 🟢📍🙋🏽‍♂️  Currently Here
+## 🧱 Secondary Practice (Optional if Time Allows)
 
 ### Hashing Contrast Exercise
 
