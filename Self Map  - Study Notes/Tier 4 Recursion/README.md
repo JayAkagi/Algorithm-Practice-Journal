@@ -1,13 +1,5 @@
 # 🧠 DSA Practice — Next Phase (Recursion)
 
-This tier begins **after hashing and counting**.
-
-The goal is to **trust structure** and stay disciplined.
-
-Recursion is about clarity, not tricks.
-
----
-
 ## 🧭 Operating Rules (Still Apply)
 
 - Java only
