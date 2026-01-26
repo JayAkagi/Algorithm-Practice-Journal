@@ -72,7 +72,7 @@ Each tier may be revisited and refactored as understanding improves.
 ---
 
 ### Tier 2 — Two Pointers & In-Place Techniques
-**Status:** 🟡 In Progress | 🔧 Refactor Pending  
+**Status:** ✅ Completed | 🔧 Refactor Pending  
 **Focus:** Intentional movement through data
 
 - Read vs write pointers
@@ -89,7 +89,7 @@ Each tier may be revisited and refactored as understanding improves.
 ---
 
 ### Tier 3 — Hashing & Counting
-**Status:** ⏳ Planned  
+**Status:** ✅ Completed | 🔧 Refactor Pending   
 **Focus:** Trading memory for simplicity
 
 - HashMap / HashSet usage
@@ -104,7 +104,7 @@ Each tier may be revisited and refactored as understanding improves.
 ---
 
 ### Tier 4 — Recursion & Backtracking
-**Status:** ⏳ Planned  
+**Status:** 🟡 In Progress | 🔧 Refactor Pending   
 **Focus:** Trusting structure and base cases
 
 **Exercises**
@@ -186,13 +186,6 @@ Problems may be solved multiple times:
 - Earlier code will look worse than later code — that’s expected
 
 This repository documents **learning**, not outcomes.
-
----
-
-## 📝 Self Notes
-
-### 🔧 Refactor Targets
-- Two-pointer technique: *Move All Zeros to the End*
 
 ---
 
