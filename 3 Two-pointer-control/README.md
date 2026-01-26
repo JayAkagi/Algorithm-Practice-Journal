@@ -117,3 +117,10 @@ This is exploratory code, not a replacement.
 - I don’t hide behind abstractions
 - I allow early solutions to be rough
 - I revisit problems when my understanding improves
+
+### 🚥 Status
+- Reverse Array : 🟢Completed
+- Move All Zeros to the End : 🟠Refactor Pending
+- Check If Array Is Sorted : 🟢Completed
+- Remove Duplicates from Sorted Array : 🟢Completed
+- Remove Duplicates (Experimental) : 🔵 Trial

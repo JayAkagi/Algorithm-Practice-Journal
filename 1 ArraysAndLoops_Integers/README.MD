@@ -32,3 +32,13 @@ Write **clean Java methods** for each problem.
 - No fancy libraries   
 
 ---
+
+### 🚥 Status
+- arrayBuilder : 🟢 Completed
+- maxNum : 🟢 Completed
+- smallestNum : 🟢 Completed
+- sortChecker : 🟢 Completed
+- reverseArray : 🟠 Refactor Pending
+- sortArray : 🟠 Refactor Pending (Currently Bubble Sort)
+- secondLargest : 🟠 Refactor Pending
+- numCount : 🟠 refactor Pending

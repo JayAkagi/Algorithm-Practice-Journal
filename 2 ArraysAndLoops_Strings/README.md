@@ -42,7 +42,7 @@ I check whether a string is a palindrome by walking inward from both ends.
 
 I compare characters directly and stop the moment they don’t match.
 
-I also normalize case so I’m comparing meaning, not formatting.
+I also normalise case so I’m comparing meaning, not formatting.
 
 This trains:
 - Two-pointer control
@@ -89,5 +89,11 @@ Strings are just arrays with opinions.
 
 Once I can move through characters calmly and predictably, the problems stop feeling random.
 
-I’m not memorizing solutions.  
+I’m not memorising solutions.  
 I’m building patterns.
+
+### 🚥 Status
+- Reverse Sring : 🟢Completed
+- Palindrome Check : 🟢Completed
+- First Repeating Character : 🟢Completed
+- Count Vowels : 🟠Refactor Pending
