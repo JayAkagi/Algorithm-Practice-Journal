@@ -89,7 +89,7 @@ Each tier may be revisited and refactored as understanding improves.
 ---
 
 ### Tier 3 — Hashing & Counting
-**Status:** ✅ Completed | 🔧 Refactor Pending   
+**Status:** ✅ Completed   
 **Focus:** Trading memory for simplicity
 
 - HashMap / HashSet usage
