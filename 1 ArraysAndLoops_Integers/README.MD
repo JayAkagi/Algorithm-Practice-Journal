@@ -38,7 +38,7 @@ Write **clean Java methods** for each problem.
 - maxNum : 🟢 Completed
 - smallestNum : 🟢 Completed
 - sortChecker : 🟢 Completed
-- reverseArray : 🟠 Refactor Pending
-- sortArray : 🟠 Refactor Pending (Currently Bubble Sort)
-- secondLargest : 🟠 Refactor Pending
-- numCount : 🟠 refactor Pending
+- reverseArray : 🟢 Completed
+- sortArray : 🟢 Completed
+- secondLargest : 🟢 Completed
+- numCount : 🟢 Completed
