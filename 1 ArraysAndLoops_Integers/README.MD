@@ -34,11 +34,11 @@ Write **clean Java methods** for each problem.
 ---
 
 ### 🚥 Status
-- arrayBuilder : 🟢 Completed
-- maxNum : 🟢 Completed
-- smallestNum : 🟢 Completed
-- sortChecker : 🟢 Completed
-- reverseArray : 🟢 Completed
-- sortArray : 🟢 Completed
-- secondLargest : 🟢 Completed
-- numCount : 🟢 Completed
+- createRandomArray : 🟢 Completed
+- getMax : 🟢 Completed
+- getSecondMax : 🟢 Completed
+- getMin : 🟢 Completed
+- isSorted : 🟢 Completed
+- getReversedCopy : 🟢 Completed
+- getSortedCopy : 🟢 Completed
+- getCountsString : 🟢 Completed
