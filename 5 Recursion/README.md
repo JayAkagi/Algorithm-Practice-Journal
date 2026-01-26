@@ -41,7 +41,7 @@ If any of these are unclear, stop and rethink.
 
 ---
 
-### Exercise 1: Print 1 → N (Recursively) ⬅️ 🟢📍🙋🏽‍♂️  Currently Here
+### Exercise 1: Print 1 → N (Recursively)
 
 Input:
 N = 5
