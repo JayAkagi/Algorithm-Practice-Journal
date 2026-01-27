@@ -173,4 +173,4 @@ I’m done with this tier when:
 - Print 1 → N (Recursively) : 🟢Completed
 - Print N → 1 (Recursively) : 🟢Completed
 - Sum of First N Numbers : 🟢Completed
-- Reverse a String (Recursively) : 🟡Planned
+- Reverse a String (Recursively) : 🟢Completed

@@ -4,7 +4,9 @@ public class App {
         printNtoOne(1);
 
         System.out.println("\nsum of first numbers: ");
-        sumOfFirstNumbers(5);
+        getSumOfFirstNumbers(5);
+
+        System.out.println(getReversedStringRecursively("Test"));
     }
 
     public static void printNtoFive(int n){
@@ -21,11 +23,20 @@ public class App {
         System.out.println(n);
     }
 
-    public static Integer sumOfFirstNumbers(int n){
+    public static Integer getSumOfFirstNumbers(int n){
         if(n == 0) return 0;
-        int num = sumOfFirstNumbers(n - 1);
+        int num = getSumOfFirstNumbers(n - 1);
         int total = n + num;
         System.out.println(total);
         return total;
+    }
+
+    public static String getReversedStringRecursively(String s){
+        if(s == null || s.length() <= 1) return s;
+
+        Character c = s.charAt(0);
+
+        String reversed = getReversedStringRecursively(s.substring(1));
+        return reversed + c;
     }
 }
